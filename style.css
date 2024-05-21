@@ -1,3 +1,42 @@
 body {
-	background-color: red;
+	background-color: rgb(0, 217, 255);
+}
+#header {
+	background-color: black;
+	box-shadow: 0 2px 8px rgba(109, 109, 109, 0.4);
+	color:white;
+}
+ul {
+	list-style: none;
+}
+.container {
+	margin: 0 80px;
+}
+.flexbox {
+	display: flex;
+}
+.nav li {
+	height: 50px;
+	padding: 0 10px;
+	margin: 0 10px;
+	text-align: center;
+	line-height: 50px;
+}
+.top-inner {
+	justify-content: space-between;
+	align-items: center;
+}
+a {
+	text-decoration: none;
+	color:white;
+}
+.nav li:hover {
+	line-height: 50px;
+	text-align: center;
+	background-color:aqua;
+}
+#community_issues_header {
+	background-color: black;
+	box-shadow: 0 2px 8px rgba(109, 109, 109, 0.4);
+	color:white;
 }
