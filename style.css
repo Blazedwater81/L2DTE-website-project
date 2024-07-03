@@ -1,9 +1,9 @@
 body {
-	background-color: rgb(0, 217, 255);
+	background-color: #FFFDD0;
 }
 #header {
-	background-color: black;
-	box-shadow: 0 2px 8px rgba(109, 109, 109, 0.4);
+	background-color: #3542a3;
+	box-shadow: 0 2px 8px #FFFDD0;
 	color:white;
 }
 ul {
@@ -31,12 +31,45 @@ a {
 	color:white;
 }
 .nav li:hover {
-	line-height: 50px;
-	text-align: center;
-	background-color:aqua;
+	transform:scale(1.1);
+	font-weight:bold;
 }
 #community_issues_header {
+	background-color: white;
+	box-shadow: 0 2px 8px rgba(109, 109, 109, 0.4);
+	color:black;
+}
+#second_header {
 	background-color: black;
 	box-shadow: 0 2px 8px rgba(109, 109, 109, 0.4);
 	color:white;
+}
+#third_header {
+	background-color: black;
+	box-shadow: 0 2px 8px rgba(109, 109, 109, 0.4);
+	color:white;
+}
+.dropdown {
+	background-color:#3542a3;
+	color: black;
+}
+.community_dropdown a:hover {
+	background-color:#3542a3;
+	color:black;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #3542a3;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,0.2);
+	z-index: 1;
+	top: 100%;
+	left: 0;
+}
+.dropdown-content li {
+	display: block;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
 }
